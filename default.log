@@ -1,0 +1,5 @@
+2024-11-26 18:22:21,913 - app - INFO - Process started
+2024-11-26 18:22:27,373 - app - INFO - The file resources/data.csv has been loaded
+2024-11-26 18:22:27,724 - app - INFO - The data transformation has been done
+2024-11-26 18:22:29,918 - app - INFO - Data aggregations has been done
+2024-11-26 18:22:31,501 - app - INFO - The results has been export, the format is parquet partition by Year/Region

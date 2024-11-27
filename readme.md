@@ -1,4 +1,4 @@
-# PySpark Big Data Challenge - Week 2 🚀
+# PySpark Big Data Challenges - 2 🚀
 
 This project is part of a series of technical challenges aimed at strengthening PySpark and Big Data skills. In Week 2, the focus was on cleaning, transforming, aggregating, and partitioning a dataset using PySpark.
 

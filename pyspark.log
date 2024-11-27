@@ -1,0 +1,20 @@
+2024-11-27 13:18:19,601 - PySpark Version - INFO - Process started
+2024-11-27 13:18:24,943 - PySpark Version - INFO - The file resources/data.csv has been loaded
+2024-11-27 13:18:25,391 - PySpark Version - INFO - The data transformation has been done
+2024-11-27 13:18:27,574 - PySpark Version - INFO - Data aggregations has been done
+2024-11-27 13:18:29,184 - PySpark Version - INFO - The results has been export, the format is parquet partition by Year/Region
+2024-11-27 13:18:41,862 - PySpark Version - INFO - Process started
+2024-11-27 13:18:46,702 - PySpark Version - INFO - The file resources/data.csv has been loaded
+2024-11-27 13:18:47,036 - PySpark Version - INFO - The data transformation has been done
+2024-11-27 13:18:49,150 - PySpark Version - INFO - Data aggregations has been done
+2024-11-27 13:18:50,709 - PySpark Version - INFO - The results has been export, the format is parquet partition by Year/Region
+2024-11-27 13:19:13,198 - PySpark Version - INFO - Process started
+2024-11-27 13:19:18,365 - PySpark Version - INFO - The file resources/data.csv has been loaded
+2024-11-27 13:19:18,812 - PySpark Version - INFO - The data transformation has been done
+2024-11-27 13:19:20,995 - PySpark Version - INFO - Data aggregations has been done
+2024-11-27 13:19:22,608 - PySpark Version - INFO - The results has been export, the format is parquet partition by Year/Region
+2024-11-27 13:20:13,924 - PySpark Version - INFO - Process started
+2024-11-27 13:20:19,341 - PySpark Version - INFO - The file resources/data.csv has been loaded
+2024-11-27 13:20:19,683 - PySpark Version - INFO - The data transformation has been done
+2024-11-27 13:20:21,862 - PySpark Version - INFO - Data aggregations has been done
+2024-11-27 13:20:23,508 - PySpark Version - INFO - The results has been export, the format is parquet partition by Year/Region

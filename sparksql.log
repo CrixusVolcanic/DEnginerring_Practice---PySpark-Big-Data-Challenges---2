@@ -1,0 +1,10 @@
+2024-11-27 13:19:22,610 - SparkSQL Version - INFO - Process started
+2024-11-27 13:19:22,898 - SparkSQL Version - INFO - The file resources/data.csv has been loaded
+2024-11-27 13:19:23,008 - SparkSQL Version - INFO - Data transformations have been done
+2024-11-27 13:19:24,102 - SparkSQL Version - INFO - Data aggregations have been done
+2024-11-27 13:19:25,058 - SparkSQL Version - INFO - The results have been exported in parquet format partitioned by Year/Region
+2024-11-27 13:20:23,508 - SparkSQL Version - INFO - Process started
+2024-11-27 13:20:23,804 - SparkSQL Version - INFO - The file resources/data.csv has been loaded
+2024-11-27 13:20:24,032 - SparkSQL Version - INFO - Data transformations have been done
+2024-11-27 13:20:25,214 - SparkSQL Version - INFO - Data aggregations have been done
+2024-11-27 13:20:26,142 - SparkSQL Version - INFO - The results have been exported in parquet format partitioned by Year/Region

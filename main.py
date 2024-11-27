@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 from pyspark.sql import Window
 from pyspark.sql.types import FloatType, IntegerType
-from pyspark.sql.functions import to_date, year, split, lpad, concat_ws, avg, sum, row_number
+from pyspark.sql.functions import to_date, year, split, lpad, concat_ws, avg, sum, row_number, desc
 from libraries.utils import defaul_logger
 
 def main():
@@ -49,7 +49,7 @@ def main():
 
         #Top Region's Sales per Year
         df_top_region = df_agg.groupby("Year", "Region").sum("Total Sales").orderBy("Year", "Region")
-        df_top_region = df_top_region.withColumn("row_number", row_number().over(Window.partitionBy("Year").orderBy("sum(Total Sales)")))
+        df_top_region = df_top_region.withColumn("row_number", row_number().over(Window.partitionBy("Year").orderBy(desc("sum(Total Sales)"))))
         df_top_region.filter("row_number = 1").show()
 
         #Best Margin per Category

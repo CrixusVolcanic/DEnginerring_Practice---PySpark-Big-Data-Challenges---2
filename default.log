@@ -3,3 +3,12 @@
 2024-11-26 18:22:27,724 - app - INFO - The data transformation has been done
 2024-11-26 18:22:29,918 - app - INFO - Data aggregations has been done
 2024-11-26 18:22:31,501 - app - INFO - The results has been export, the format is parquet partition by Year/Region
+2024-11-27 12:32:52,385 - app - INFO - Process started
+2024-11-27 12:32:57,605 - app - INFO - The file resources/data.csv has been loaded
+2024-11-27 12:32:58,050 - app - INFO - The data transformation has been done
+2024-11-27 12:32:58,089 - app - ERROR - Error: WindowSpec.orderBy() got an unexpected keyword argument 'ascending'
+2024-11-27 12:35:38,627 - app - INFO - Process started
+2024-11-27 12:35:44,012 - app - INFO - The file resources/data.csv has been loaded
+2024-11-27 12:35:44,400 - app - INFO - The data transformation has been done
+2024-11-27 12:35:46,552 - app - INFO - Data aggregations has been done
+2024-11-27 12:35:48,237 - app - INFO - The results has been export, the format is parquet partition by Year/Region

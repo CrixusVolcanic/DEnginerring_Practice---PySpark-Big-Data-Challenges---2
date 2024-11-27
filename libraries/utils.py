@@ -14,3 +14,6 @@ def setup_logger(name, log_file, level=logging.INFO):
     return logger
 
 defaul_logger = setup_logger(name="app", log_file="default.log")
+
+def format_column(column_name):
+    return str(column_name).lower().replace("-", '_').replace(" ", "_")

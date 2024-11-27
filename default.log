@@ -12,3 +12,13 @@
 2024-11-27 12:35:44,400 - app - INFO - The data transformation has been done
 2024-11-27 12:35:46,552 - app - INFO - Data aggregations has been done
 2024-11-27 12:35:48,237 - app - INFO - The results has been export, the format is parquet partition by Year/Region
+2024-11-27 13:01:04,711 - app - INFO - Process started
+2024-11-27 13:01:10,358 - app - INFO - The file resources/data.csv has been loaded
+2024-11-27 13:01:10,642 - app - INFO - Data transformations have been done
+2024-11-27 13:01:13,286 - app - INFO - Data aggregations have been done
+2024-11-27 13:01:14,963 - app - INFO - The results have been exported in parquet format partitioned by Year/Region
+2024-11-27 13:02:24,896 - app - INFO - Process started
+2024-11-27 13:02:30,496 - app - INFO - The file resources/data.csv has been loaded
+2024-11-27 13:02:30,699 - app - INFO - Data transformations have been done
+2024-11-27 13:02:33,420 - app - INFO - Data aggregations have been done
+2024-11-27 13:02:35,112 - app - INFO - The results have been exported in parquet format partitioned by Year/Region
